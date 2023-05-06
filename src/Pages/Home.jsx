@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar />
       <Slider />
       <div>
-        hi
+        hi there
       </div>
     </div>
   );
