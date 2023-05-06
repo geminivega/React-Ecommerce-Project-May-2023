@@ -1,3 +1,8 @@
 .App {
   font-family: 'Urbanist', sans-serif;
 }
+
+body {
+  margin: 0; /*extra*/
+  padding: 0; /*extra*/
+}
