@@ -6,6 +6,7 @@ import Newsletter from '../Components/Newsletter';
 import Footer from '../Components/Footer';
 import { Add, Remove } from '@mui/icons-material';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div``;
 

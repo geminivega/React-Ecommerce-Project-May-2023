@@ -13,7 +13,6 @@ const Home = () => {
       <Navbar />
       <Announcement />
       <Slider />
-      <Categories />
       <Products />
       <Newsletter />
       <Footer />
