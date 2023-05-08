@@ -43,5 +43,49 @@ export const categories = [
         img: "https://picsum.photos/id/234/512/1024",
         title: "Category Lorem Threesum",
     },
+]
 
+export const popularProducts = [
+    {
+        id: 1,
+        img: "https://picsum.photos/id/778/512/512",
+    },
+
+    {
+        id: 2,
+        img: "https://picsum.photos/id/193/512/512",
+    },
+
+    {
+        id: 3,
+        img: "https://picsum.photos/id/413/512/512",
+    },
+        {
+        id: 4,
+        img: "https://picsum.photos/id/768/512/512",
+    },
+
+    {
+        id: 5,
+        img: "https://picsum.photos/id/553/512/512",
+    },
+
+    {
+        id: 6,
+        img: "https://picsum.photos/id/33/512/512",
+    },
+        {
+        id: 8,
+        img: "https://picsum.photos/id/87/512/512",
+    },
+
+    {
+        id: 9,
+        img: "https://picsum.photos/id/135/512/512",
+    },
+
+    {
+        id: 10,
+        img: "https://picsum.photos/id/53/512/512",
+    },
 ]
