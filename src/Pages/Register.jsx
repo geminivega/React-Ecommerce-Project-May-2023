@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
   position: relative;
@@ -19,6 +20,7 @@ const ContainerBackground = styled.div`
       rgba(255, 255, 255, 0.5)
     ),
     url('https://picsum.photos/id/152/1080/') center;
+  background-size: cover;
   filter: blur(5px);
   border: none;
   z-index: -1;
@@ -28,6 +30,7 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 40%;
   background-color: white;
+  ${mobile({ width: '75%' })}
 `;
 
 const Form = styled.form`

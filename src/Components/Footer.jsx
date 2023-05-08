@@ -12,9 +12,11 @@ import {
 } from '@mui/icons-material';
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: 'column' })}
 `;
 
 const Left = styled.div`
@@ -49,6 +51,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: 'none' })}
 `;
 
 const Title = styled.h3`
@@ -71,6 +74,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: '#f3e4e4' })}
 `;
 
 const ContactItem = styled.div`
@@ -85,7 +89,7 @@ const Payment = styled.img`
 
 const Footer = () => {
   const iconMarginRight = '10px';
-  
+
   return (
     <Container>
       <Left>

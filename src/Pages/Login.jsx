@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
   position: relative;
@@ -18,7 +19,7 @@ const ContainerBackground = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url('https://picsum.photos/id/275/1080/') center;
+    url('https://picsum.photos/id/375/1080/') center;
   background-size: cover;
   filter: blur(5px);
   border: none;
@@ -27,13 +28,14 @@ const ContainerBackground = styled.div`
 
 const Wrapper = styled.div`
   padding: 20px;
-  width: 40%;
+  width: 25%;
   background-color: white;
+  ${mobile({ width: '75%' })}
 `;
 
 const Form = styled.form`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 `;
 
 const Title = styled.h1`
@@ -44,7 +46,7 @@ const Title = styled.h1`
 const Input = styled.input`
   flex: 1;
   min-width: 40%;
-  margin: 20px 10px 0 0;
+  margin: 10px 0;
   padding: 10px;
 `;
 
@@ -55,10 +57,14 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  margin-bottom: 10px;
 `;
 
-const Link = style.a`
-//todo
+const Link = styled.a`
+  margin: 5px 0;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
 `;
 
 const Login = () => {
